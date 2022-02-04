@@ -1,0 +1,47 @@
+@media screen and (max-width: 992px){
+    .nav-link{
+        font-size: 22px;
+        border: 1px white solid;
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+    .audio-item{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 768px){
+    .nav-link{
+        font-size: 15px;
+        margin-left: 40px;
+        
+    }
+}
+@media screen and (max-width: 576px){
+    .nav-link{
+        font-size: 9px;
+        margin: 1px;
+        margin-left: 15px;
+    }
+    .audio-item{
+         font-size: 10px;
+    }
+    audio{
+        max-width: 300px;
+        max-height: 30px;
+    }
+    .p{
+        margin-top: 20px;
+    }
+    nav{
+        align-items: center; 
+        display: flex; 
+        flex-direction: column; 
+        justify-content: center;
+        margin-right: -180px;
+    }
+    .logo{
+        width: 25%;
+        margin-right: 300px;
+        margin-bottom: -50px;
+    }
+}

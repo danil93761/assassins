@@ -1,0 +1,13 @@
+@media screen and (max-width: 992px){
+    .welcome1{
+        
+    }
+
+   
+    
+}
+@media screen and (max-width: 768px){
+    .container{
+        padding-right: 300px;
+    }
+}

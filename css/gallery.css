@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+body{
+    font-size: 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: url('../img/cursor.png'), default;
+}
+.container{
+    width: 1800px;
+    margin: 0 auto;
+}
+.header{
+    font-size: 23px;
+    margin-top: 40px;
+    text-align: center;
+}
+.logo{
+    width: 50%;
+}
+.nav-link{
+    text-decoration: none;
+    margin-left: 29px;
+    color: black;
+    font-family: 'Rubik Mono One', sans-serif;
+    margin-top: 20px;
+    font-size: 16px;
+}
+.nav-link:hover{
+    color:#5a0212 ;
+}
+.welcome1{
+    
+    text-align: center;
+    width: 1800px; 
+    height: 1000px;
+    padding-right: 500px;
+
+}
+.img{
+    height: 175px; width: 300px;
+    margin-top: 5px;
+    border: solid 4px black;
+    
+}
+.h1{
+    text-align: center;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 23px;
+    padding-top: 50px;
+} 
+.item{
+    margin: 50px;
+    text-align: center;
+    width: 300px;
+    height: 250px;
+} 
+.item p{
+    height: 50px;
+    margin-bottom: 25px;
+}
+.img-a{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+button{
+    background-color: #34547A;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}  
+button:hover{
+    background-color: gray;
+    transition-duration: 0.5s;
+}    
+footer{
+    text-align: center;
+    color: black;
+    padding-top: 1490px;
+}
